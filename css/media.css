@@ -1,0 +1,58 @@
+@media(max-width:1200px) {
+    .Service_image>img {
+        width: 100%;
+        display: block;
+        padding: var(--pad-10);
+    }
+    .Navigation_Jay_Ambey_Nurshing_Home {
+        display: none;
+    }
+    .logo>img {
+        width: 42px;
+        display: inline-block;
+        margin: 6px 12px 0px 3px;
+    }
+    .logo>h1 {
+        font-size: 20px!important;
+    }
+    .baner_div>img {
+        width: 100%;
+        text-align: right;
+        height: auto;
+    }
+    .tablinks {
+        padding: 10px 10px;
+        background-color: var(--color-blue);
+        color: var(--color-white);
+        font-size: 14px;
+        box-sizing: border-box;
+        border-radius: 25px;
+        text-decoration: none!important;
+        box-shadow: 0px 4px 14px 2px #80808014;
+        /* margin: 20px 0px; */
+        position: relative;
+        top: 17px;
+    }
+    .active,
+    .tablinks:hover {
+        background-color: var(--color-white);
+        color: var(--color-black)!important;
+        box-shadow: 0px 4px 14px 2px #8080803d;
+        transition: 0.4s;
+    }
+    .tab {
+        margin-bottom: 35px;
+        margin-top: 29px;
+    }
+    .menu_btn {
+        width: 34px;
+        position: absolute;
+        right: 5px;
+        top: 17px;
+        z-index: 999999999999;
+        display: block;
+    }
+}
+
+
+}

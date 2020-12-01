@@ -1,0 +1,313 @@
+/* SHREE LEELA YOGA CLASSES  
+............................
+
+/* Main Stylesheet Contain list 
+ ----------------------------------      
+          /*Website Tag list 
+
+1)  header
+2)  Navigation
+3)  section
+4)  footer
+
+        /*Website images custum list 
+
+5)  Images of services
+6)  image of gallery
+7)  image of About
+       
+         /*Website font custum 
+
+8)  font-size
+9)  font-color
+10) font-family
+ 
+       /*Website backgrounds
+11) backgrounds-color
+
+
+      /*Website basic css
+13) height,widht
+14) padding,margin
+15) Buttons
+
+----------------------------------------  
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif!important;
+    font-family: 'Ubuntu', sans-serif!important;
+}
+
+body {
+    color: rgb(40 44 63)!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 30px!important;
+    padding: var(--pad-10);
+    text-align: center;
+}
+
+article {
+    padding-top: 66px;
+}
+
+
+/* global-css */
+
+ :root {
+    --color-black: black;
+    --color-white: white;
+    --color-gray: gray;
+    --color-blue: rgb(142 9 154);
+    /*coustom color */
+    --font-26: 26px;
+    --font-18: 18px;
+    /*coustom font-size */
+    --pad-10: 10px;
+    --pad-5: 5px;
+}
+
+
+/* global-css */
+
+
+/*(1) Custom  header*/
+
+
+/* header>sub header */
+
+.sub_header {
+    padding: var(--pad-10);
+    background-color: var(--color-blue);
+}
+
+.timing>span>img,
+.phone>span>img {
+    width: 20px;
+    margin: 0px 10px;
+}
+
+.timing>span>b,
+.phone>span>a>b {
+    color: var(--color-white)!important;
+}
+
+.menu_btn {
+    display: none;
+}
+
+
+/* ---------- */
+
+.Navigation_Jay_Ambey_Nurshing_Home {
+    padding: var(--pad-10);
+}
+
+header {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05)!important;
+    background-color: var(--color-white);
+    width: 100%;
+    z-index: 9999999;
+    padding: var(--pad-5);
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 999999999;
+    box-shadow: 0px 6px 10px -3px;
+    transition: 0.6s;
+    padding: 0px;
+}
+
+
+/*------Custom  header------*/
+
+
+/*(2) Navigation */
+
+.Navigation_Jay_Ambey_Nurshing_Home>ul>li>a {
+    font-size: var(--font-18)!important;
+    color: var(--color-black)
+}
+
+
+/* -----Navigation -----*/
+
+
+/*(3) Section */
+
+.jay_ambey_nurshing_home_banner>img {
+    width: 100%;
+}
+
+
+/* ------section----- */
+
+
+/* All Image custom*/
+
+
+/* header-logo */
+
+.logo {
+    display: inline-flex;
+}
+
+.logo>img {
+    width: 50px;
+    display: inline-block;
+    margin: 5px 12px 0px 3px;
+}
+
+
+/* ------ */
+
+
+/* article01  */
+
+p {
+    font-size: 17px;
+    line-height: 2;
+    padding: 10px;
+}
+
+
+/* /------------ */
+
+
+/* article02 */
+
+.article02,
+.article04 {
+    background: rgb(128 128 128 / 5%);
+}
+
+.Service_image {
+    box-shadow: 0 4px 103px 0 rgba(0, 0, 0, .05)!important;
+    background-color: var(--color-white);
+    border-radius: 22px;
+}
+
+.Service_image>ul li {
+    list-style: none;
+    font-size: var(--font-26);
+    background: var(--color-white);
+    /* right: 99px; */
+    box-shadow: 0 4px 103px 0 rgba(0, 0, 0, .05)!important;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.Service_image>img {
+    width: 100%;
+    height: 200px;
+    padding: var(--pad-10);
+    border-radius: 22px;
+}
+
+
+/* ------------ */
+
+
+/* Div banner_ambulens */
+
+.baner_div>img {
+    width: 100%;
+    text-align: right;
+    height: 228px;
+}
+
+
+/* --------------------- */
+
+
+/*tab_ Button  */
+
+.tablinks {
+    padding: 10px 28px;
+    background-color: var(--color-blue);
+    color: var(--color-white)!important;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    text-decoration: none!important;
+    box-shadow: 0px 4px 14px 2px #80808014;
+    margin: 10px 10px;
+}
+
+.active,
+.tablinks:hover {
+    background-color: var(--color-white);
+    color: var(--color-black)!important;
+    box-shadow: 0px 4px 14px 2px #8080803d;
+    transition: 0.4s;
+}
+
+
+/* --------------- */
+
+
+/* article05 */
+
+.address {
+    padding: var(--pad-10);
+    font-size: var(--font-18);
+}
+
+.address>ul>li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+
+/* ----------- */
+
+
+/* article 06 */
+
+.gallery_img>img {
+    width: 100%;
+    display: block;
+    height: 230px;
+    padding: 10px;
+}
+
+
+/* ---------- */
+
+
+/* footer */
+
+footer {
+    background: rgb(246 246 246);
+    padding: var(--pad-10);
+}
+
+.footer_nav>ul>li,
+a {
+    list-style: none;
+    color: var(--color-black)!important;
+    font-size: var(--font-18);
+}
+
+.footer_bottom {
+    padding: var(--pad-5);
+    background-color: var(--color-blue);
+}
+
+
+/* -------- */
